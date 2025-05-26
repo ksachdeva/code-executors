@@ -1,5 +1,6 @@
 [tool.uv.workspace]
 members = [
+    "docker-code-executor"
 ]
 
 [tool.uv.sources]
