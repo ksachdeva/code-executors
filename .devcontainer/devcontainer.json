@@ -65,18 +65,6 @@
       "installOhMyZshConfig": false,
       "configureZshAsDefaultShell": true
     },
-    // Python
-    "ghcr.io/devcontainers/features/python:1": {
-      "version": "3.11"
-    },
-    // Node
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "lts"
-    },
-    // TypeScript
-    "ghcr.io/devcontainers-extra/features/typescript:2": {},
-    // ts-node
-    "ghcr.io/devcontainers-extra/features/ts-node:1": {},
     // Modern shell utils
     "ghcr.io/mikaello/devcontainer-features/modern-shell-utils:1": {},
     // uv
