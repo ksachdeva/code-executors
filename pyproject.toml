@@ -7,7 +7,7 @@ members = [
 
 
 [tool.uv]
-dev-dependencies = [    
+dev-dependencies = [
     "pytest>=8.3.3",
     "pytest-asyncio>=0.24.0",
     "pytest-xdist>=3.6.1",
@@ -17,8 +17,8 @@ dev-dependencies = [
     "pyright>=1.1.378",
     "mypy>=1.10.0",
     "ruff>=0.4.8",
-    "ipykernel>=6.29.5"
-    
+    "ipykernel>=6.29.5",
+    "pandas>=2.2.3",
 ]
 
 [tool.ruff]

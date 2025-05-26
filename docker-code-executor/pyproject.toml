@@ -1,6 +1,6 @@
 [project]
 name = "docker-code-executor"
-version = "0.0.1"
+version = "0.0.2"
 description = "A code executor that leverages Docker Container"
 readme = "README.md"
 authors = [

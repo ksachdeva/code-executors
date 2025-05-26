@@ -148,9 +148,8 @@ def with_requirements(
 
             import tempfile
             import asyncio
-            from autogen_core import CancellationToken
-            from autogen_core.code_executor import with_requirements, CodeBlock
-            from autogen_ext.code_executors.local import LocalCommandLineCodeExecutor
+            from docker_code_executor import CancellationToken
+            from docker_code_executor import with_requirements, CodeBlock
             import pandas
 
             @with_requirements(python_packages=["pandas"], global_imports=["pandas"])
